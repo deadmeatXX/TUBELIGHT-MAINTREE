@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Aosp stuff
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := aosp_lancelot
 PRODUCT_DEVICE := lancelot
 PRODUCT_MANUFACTURER := Xiaomi
